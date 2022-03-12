@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(/img/fond.png);
+}
+
+.header {
+	margin-top: 2rem;
+	width: 100%;
+	background-color: #25b3b4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-top: solid 1px rgb(17, 92, 88);
+	border-bottom: solid 1px rgb(17, 92, 88);
+}
+
+.menu-container {
+	padding-bottom: 0.5rem;
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-between; */
+}
+
+.menu-link {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 15px;
+}
+
+.article {
+	padding-left: 30%;
+	padding-right: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+	padding: 2rem;
+	font-size: 2.5em;
+	font-weight: 300;
+	color: rgba(0, 0, 0, 0.5);
+}
+article p {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.61);
+	padding: 0.5rem;
+	line-height: 1.5;
+	margin-bottom: 2.5rem;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding-left: 15%;
+	padding-right: 20%;
+	margin-bottom: 3rem;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	background-color: #b6dedc;
+	width: 80%;
+}
+.news {
+	background-color: rgb(52, 177, 178);
+	width: 30%;
+	border: solid 4px rgb(43, 154, 160);
+	color: #ffff;
+	height: fit-content;
+	padding-bottom: 1.5rem;
+	margin-left: 1.5rem;
+}
+
+.news div {
+	padding: 10px;
+	margin-left: 1rem;
+}
+
+.news h2 {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	font-size: large;
+	font-weight: 200;
+}
+
+.news a {
+	text-decoration: none;
+	color: #b6dfdd;
+}
+.news p {
+	margin-top: 5px;
+	line-height: 1.5;
+	font-size: small;
+}
+
+.menu-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.menu-title {
+	font-family: 'Slabo 27px', serif;
+	color: #484e58;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: 300;
+	padding: 2rem 3.5rem;
+}
+.menu-title span {
+	color: #319da3;
+}
+
+.menu-title-second {
+	color: rgba(0, 0, 0, 0.61);
+	font-size: 1.8em;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	font-weight: 500;
+}
+.menu-section-gauche,
+.menu-section-droite {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.img-round {
+	float: left;
+	height: 6rem;
+	width: 6rem;
+	margin: 0.5rem 0.5rem 0 0;
+	border-radius: 100px;
+	background-image: url(/img/recipe1.jpg);
+}
+
+.menu p {
+	margin-bottom: 12px;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.61);
+	text-align: left;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	background-color: #2b9aa0;
+	color: #ffff;
+	float: right;
+	padding: 00.5rem;
+	margin-bottom: 1rem;
+}
+
+.img-corner {
+	float: right;
+	margin: -50px -50px 0 0;
+}
